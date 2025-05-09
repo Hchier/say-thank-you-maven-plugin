@@ -1,0 +1,20 @@
+```xml
+<plugin>
+    <groupId>cc.hchier</groupId>
+    <artifactId>say-thank-you-maven-plugin</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <executions>
+        <execution>
+            <!--显示指定phase，优先级更高-->
+            <!--<phase>compile</phase>-->
+            <goals>
+                <goal>sayThankYou</goal>
+            </goals>
+        </execution>
+    </executions>
+    <configuration>
+        <name1>Zelensky</name1>
+        <name2>Trump</name2>
+    </configuration>
+</plugin>
+```
